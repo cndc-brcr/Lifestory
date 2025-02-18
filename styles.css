@@ -181,13 +181,13 @@ nav {
     font-weight: bold;
 }
 
-.contact-form input, 
-.contact-form textarea {
+input[type="text"], input[type="email"], textarea[id="message"] {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 5px;
     font-size: 16px;
+    background-image: linear-gradient (pink, lavender);
 }
 
 .contact-form button {
