@@ -184,6 +184,11 @@ hr {
     border-radius: 10px;
 }
 
+.blog-post img:hover {
+    opacity: 0.5;
+} 
+
+
 .blog-post h2 {
     font-size: 22px;
     margin: 10px 0;
