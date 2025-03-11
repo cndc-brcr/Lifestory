@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sincerely Candice</title>
+</head>
+<style>
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: tan;
+    color: #333;
+}
+
+/* Navigation Bar */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(pink);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Menu Icon (☰) */
+.menu-icon {
+    position: relative;
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+    width: 50px; /* Makes it easy to click */
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.menu-icon:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar (Hidden by Default) */
+.sidebar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 150px;
+    background: darkgrey;
+    color: white ;
+    display: none; /* Hidden initially */
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar.active {
+    display: flex; /* Show when active */
+}
+
+.sidebar a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+
+.sidebar a:hover {
+    background: #575757;
+}
+
+.sidebar .close-btn {
+    text-align: right;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+  .blog-article {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+}
+
+.blog-article h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.blog-date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-article h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.blog-article p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.back-to-blog {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.back-to-blog:hover {
+    background: #ff4081;
+}
+</style>
+<body>
+    <main class="blog-article">
+        <h1>Story of My Life</h1>
+        <p class="blog-date">Published on February 10, 2025</p>
+
+        <img src="Images/d4fb8edcd85d4ad5c9556838dc7d5358.jpg" alt="Life" class="blog-image">
+
+            <p>Looking back at 2024, I can say it was one hell of a ride-full of  good times, tough moments, and a whole lot of figuring things out. It wasn't perfect, but then again, neither am I.</p>
+            <p><strong>Starting the Year with Adventures</strong></p>
+            <p>The first few months of the year? They were great. I traveled with my friends, and honestly, those moments felt like freedom. No stress, no overthinking-just fun, laughter, and making memories that felt like they would last forever. We didn't always have everything planned out perfectly, but that was the best part. We got lost a few times, spent more than we should have, and made stupid decisions along the way, but that's what made it real.</p>
+            <p><strong>June: The Month That Changed Everything</strong></p>
+            <p>Then came June, and everything shifted. My grandfather passed away, and suddenly, the world didn't feel as fun anymore. Grief is wierd-it hits you in waves. One moment, you're okay, and the next, a random memory makes your chest feel heavy. I wasn't ready for it, I don't think I ever would have been. Losing him made me realize that no matter how much we think we have time, we really don't. And that's a scary thought.</p>
+            <p>There were days when I felt like I should've done more-spent more time with him, asked him more stories, told him I appreciated him more. But life doesn't give you a heads-up when it's about to take something away. It just does. And you're left dealing with it however you can.</p>
+            <p><strong>Trying to Move Forward</strong></p>
+            <p>After that, life keep going, even when I felt like it shouldn't. Our town fiesta came, and for the first time in a while, I felt something close to normal again. Therr was food, music, and the kind of energy that makes you forget your worries, even if just for a little bit. I tried to enjoy it, but grief has a way of lingering in the background. Some moments felt forced, but I guess that's part of moving forward-showing up even when you don't feel like it.</p>
+            <p>Then came Halloween, which, to be honest, was mostly an excuse to have fun again. Dressing up, hanging out, and pretending that everything was fine for a night-it helped. And then, before I knew it , Christmas arrived. It was different, It was the first one without my grandfather, and there were moments when it hit me hard. But there was also warmth-family, food, and little things that reminded me that life goes on, even when we're not sure how to move with it.</p>
+            <p><strong>The Messy, Imperfect Truth</strong></p>
+            <p>2024 wasn't perfect, and neither was I. I had moments where I didn't know what I was doing, days when I wanted to disappear for a bit, and nights when overthinking kept me up. But I also had days filled with laughter, small wins, and moments that reminded me that even in the mess, there's still something good.</p>
+            <p>I don't have everything figured out, and I probably never will. But if there's one thing 2024 taught me, it's that life is unpredictable. The best moments don't last forever, but neither do the worst ones. And sometimes, the only thing you can do is keep going-one day at a time.</p>
+
+        <a href="blog.html" class="back-to-blog">← Back to Blog</a>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
